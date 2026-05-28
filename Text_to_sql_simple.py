@@ -69,7 +69,7 @@ if __name__ == "__main__":
     print("- muestra todas las personas")
     print("- borra persona Juan")
     print("- salir\n")
-
+    print("Escribe tus instrucciones (escribe 'salir' para terminar):")
     while True:
         comando = input("Escribe tu instrucción: ")
         if comando.lower() == "salir":
