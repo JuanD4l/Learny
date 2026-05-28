@@ -62,6 +62,7 @@ def interpretar_texto(texto):
     return "Instrucción no reconocida."
 
 # --- Ejemplo de uso ---
+
 if __name__ == "__main__":
     print("=== Sistema Text-to-SQL Básico ===")
     print("Ejemplos:")
@@ -69,11 +70,20 @@ if __name__ == "__main__":
     print("- muestra todas las personas")
     print("- borra persona Juan")
     print("- salir\n")
+    # --- cambios calet --
+    print("💡 CONSEJOS:")
+    print("- Usa nombres sin símbolos especiales")
+    print("- La edad debe ser un número")
+    print("- Escribe los comandos completos")
+    print("- Los datos se guardan automáticamente")
 
     while True:
         comando = input("Escribe tu instrucción: ")
+
         if comando.lower() == "salir":
             break
+
         total = interpretar_texto(comando)
         print(total)
- # --- hecho por Jose Rodriguez ---
+
+# --- hecho por Jose Rodriguez ---
