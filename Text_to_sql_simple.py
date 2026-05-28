@@ -70,6 +70,7 @@ if __name__ == "__main__":
     print("- muestra todas las personas")
     print("- borra persona Juan")
     print("- salir\n")
+main
     # --- cambios calet --
     print("💡 CONSEJOS:")
     print("- Usa nombres sin símbolos especiales")
@@ -77,6 +78,9 @@ if __name__ == "__main__":
     print("- Escribe los comandos completos")
     print("- Los datos se guardan automáticamente")
 
+=======
+    print("Escribe tus instrucciones (escribe 'salir' para terminar):")
+ main
     while True:
         comando = input("Escribe tu instrucción: ")
 
